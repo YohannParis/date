@@ -1,6 +1,6 @@
 {
   "name": "date.js",
-  "version": "0.1.1",
+  "version": "0.3.1",
   "description": "dates for humans",
   "main": "index.js",
   "dependencies": {
@@ -11,12 +11,25 @@
     "mocha": "~1.9.0"
   },
   "scripts": {
-    "test": "make"
+    "test": "make test"
   },
   "keywords": [
+    "nlp",
+    "natural language processing",
+    "time",
+    "parser",
+    "cfg",
     "dates",
     "humans",
     "parsing"
   ],
-  "author": "Matthew Mueller"
+  "repository": "https://github.com/MatthewMueller/date",
+  "author": "Matthew Mueller",
+  "license": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "debug": "0.8.1"
+    }
+  }
 }
